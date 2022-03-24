@@ -163,7 +163,7 @@ class Game extends React.Component {
     const winner = this.calculateWinner(this.state.squares);
     let status;
     if (winner) {
-      status = 'Winner is: ' + winner;
+      status = 'Yay!! Winner is: ' + winner;
     } else if(this.state.allSpacesFilled){
       status = "No more moves available! 'Game Tied'"
     }else {
