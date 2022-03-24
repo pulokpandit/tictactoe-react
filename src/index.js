@@ -165,7 +165,7 @@ class Game extends React.Component {
     if (winner) {
       status = 'Winner is: ' + winner;
     } else if(this.state.allSpacesFilled){
-      status = "No more moves available, Game Tied"
+      status = "No more moves available! 'Game Tied'"
     }else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
